@@ -8,7 +8,7 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 
 import css from "./tech/css.png";
-import docker from "./tech/docker.png";
+import nextjs from "./tech/nextjs.png";
 import figma from "./tech/figma.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
@@ -29,6 +29,9 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import promptify from "./promptify.png";
+import storefront from "./storefront.png";
+
 
 export {
   logo,
@@ -40,7 +43,7 @@ export {
   menu,
   close,
   css,
-  docker,
+  nextjs,
   figma,
   git,
   html,
@@ -59,4 +62,6 @@ export {
   carrent,
   jobit,
   tripguide,
+  promptify,
+  storefront,
 };

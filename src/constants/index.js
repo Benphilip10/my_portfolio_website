@@ -10,19 +10,17 @@ import {
     reactjs,
     redux,
     tailwind,
-    nodejs,
-    mongodb,
     git,
     figma,
-    docker,
+    nextjs,
     meta,
     starbucks,
     tesla,
     shopify,
-    carrent,
-    jobit,
     tripguide,
     threejs,
+    promptify,
+    storefront,
   } from "../assets";
   
   export const navLinks = [
@@ -33,6 +31,10 @@ import {
     {
       id: "works",
       title: "Works",
+    },
+    {
+      id:"projects",
+      title:"Projects"
     },
     {
       id: "contact",
@@ -46,15 +48,15 @@ import {
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "Mobile App Developer",
       icon: mobile,
     },
     {
-      title: "Backend Developer",
+      title: "3D Animator",
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "UI/UX Designer",
       icon: creator,
     },
   ];
@@ -89,14 +91,6 @@ import {
       icon: tailwind,
     },
     {
-      name: "Node JS",
-      icon: nodejs,
-    },
-    {
-      name: "MongoDB",
-      icon: mongodb,
-    },
-    {
       name: "Three JS",
       icon: threejs,
     },
@@ -109,8 +103,8 @@ import {
       icon: figma,
     },
     {
-      name: "docker",
-      icon: docker,
+      name: "nextjs",
+      icon: nextjs,
     },
   ];
   
@@ -198,12 +192,12 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Promptify",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Promptify is an open-source web application that allows for modern users to discover, create and share creative prompts to be used with AI powered tools.",
       tags: [
         {
-          name: "react",
+          name: "nextjs",
           color: "blue-text-gradient",
         },
         {
@@ -215,29 +209,29 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: promptify,
+      source_code_link: "https://promptify-1l130b8dj-benphilip10s-projects.vercel.app/",
     },
     {
-      name: "Job IT",
+      name: "Store Front",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Store Front is an e-commerce admin dashboard built with Syncfusion, it allows users keep track, and manage customer, order and employee data with ease. ",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "material UI",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "tailwind",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: storefront,
+      source_code_link: "https://admin-dashboard-hazel-one.vercel.app/",
     },
     {
       name: "Trip Guide",
